@@ -30,8 +30,6 @@
 	href="resources/images/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed"
 	href="resources/images/ico/apple-touch-icon-57-precomposed.png">
-	
-
 
 </head>
 <!--/head-->
@@ -49,51 +47,12 @@
 			</div>
 		</div>
 	</div>
-	<!--/.preloader-->
-	<header id="navigation">
-		<div class="navbar navbar-inverse navbar-fixed-top" role="banner">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html"><h1>
-							<img style="transform: rotate(270deg);"
-								src="http://st.mycdn.me/res/i/ok_logo.png" height="40%"
-								width="40%" alt="logo">
-						</h1></a>
-				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="scroll active"><a href="#navigation">로그인</a></li>
-						<li class="scroll"><a href="#about-us">회원가입</a></li>
-						<li class="scroll"><a href="#services">마이페이지</a></li>
-						<li class="scroll"><a href="#our-team">장바구니</a></li>
-						<li class="scroll"><a href="#portfolio">고객센터</a></li>
+<jsp:include page="header.jsp"/>
 
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!--/navbar-->
-	</header>
-	<!--/#navigation-->
-	
-	<!-- 테스트 -->
-	
 
-	<table>
-		<tbody>
-			<tr>
-				<td
-					style="width: 700px; , height: 200px; , background-image: url(http://st.mycdn.me/res/i/ok_logo.png)">
+	<section id="home">
 
-				</td>
-				<td style="width: 700px; , height: 200px;">
-					<section id="home">
+				
 						<div class="home-pattern"></div>
 						<div id="main-carousel" class="carousel slide"
 							data-ride="carousel">
@@ -104,45 +63,22 @@
 								<li data-target="#main-carousel" data-slide-to="2"></li>
 							</ol>
 							<!--/.carousel-indicators-->
-							<div class="carousel-inner">
+							<div class="carousel-inner" >
 								<div class="item active"
 									style="background-image: url(http://static1.e-himart.co.kr/contents/content/display/cornerContents/imageBanner/301/imageBanner_1504173536237.jpg)">
-									<div class="carousel-caption">
-										<div>
-											<h2 class="heading animated bounceInDown">'Himu' Onepage
-												HTML Template</h2>
-											<p class="animated bounceInUp">Fully Professional one
-												page template</p>
-											<a class="btn btn-default slider-btn animated fadeIn"
-												href="#">Get Started</a>
-										</div>
-									</div>
+								
+								<div class="carousel-caption">
+									
 								</div>
+								</div>
+								
 								<div class="item"
 									style="background-image: url(resources/images/slider/slide2.jpg)">
-									<div class="carousel-caption">
-										<div>
-											<h2 class="heading animated bounceInDown">Get All in
-												Onepage</h2>
-											<p class="animated bounceInUp">Everything is outstanding
-											</p>
-											<a class="btn btn-default slider-btn animated fadeIn"
-												href="#">Get Started</a>
-										</div>
-									</div>
+								
 								</div>
 								<div class="item"
 									style="background-image: url(resources/images/slider/slide1.jpg)">
-									<div class="carousel-caption">
-										<div>
-											<h2 class="heading animated bounceInRight">Fully
-												Responsive Template</h2>
-											<p class="animated bounceInLeft">100% Responsive HTML
-												template</p>
-											<a class="btn btn-default slider-btn animated bounceInUp"
-												href="#">Get Started</a>
-										</div>
-									</div>
+								
 								</div>
 							</div>
 							<!--/.carousel-inner-->
@@ -154,11 +90,7 @@
 								href="#main-carousel" data-slide="next"><i
 								class="fa fa-angle-right"></i></a>
 						</div>
-					</section>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+	</section>
 	<!--/#home-->
 
 
@@ -166,7 +98,7 @@
 		<div class="container">
 			<!-- 				<div class="row text-center">
 					<div class="col-sm-8 col-sm-offset-2">
-						<h2 class="title-one">사랑합니다 고객님222</h2>
+						<h2 class="title-one">사랑합니다 고객님</h2>
 						<p>원하는 제품을 쉽게 찾아보세요</p>
 					</div>
 				</div> -->
@@ -286,7 +218,7 @@
 					<div class="row item active">
 						<div class="col-sm-6 col-md-3">
 							<div class="single-member">
-								<img height="70%" src="resources/images/our-team/ususu.jpg"
+								<img height="60%" src="resources/images/our-team/ususu.jpg"
 									alt="team member" />
 								<h4>오상진</h4>
 								<h5>Sr. Web Developer</h5>
@@ -510,9 +442,8 @@
 			</div>
 		</div>
 	</section>
-	<!--/#clients-->
-
 	
+
 	<section id="contact">
 		<div class="container">
 			<div class="row text-center clearfix">
